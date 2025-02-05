@@ -1,0 +1,25 @@
+@media (max-width:500px) {
+    .conteiner {
+        width:300px;
+    }
+    .texto{
+        margin: 0px 20px 0px 30px;
+        font-size: 17px;
+    }
+    .github{
+        width: 250px;
+    }
+    .frontend{
+        width: 250px;
+    }
+    .linkedin{
+        width: 250px;
+    }
+    .x{
+        width: 250px;
+    }
+    .insta{
+        width: 250px;
+    }
+    
+}
