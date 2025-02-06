@@ -10,6 +10,7 @@ body{
 main{
     width: 400px;
     height: 600px;
+    
 }
 
 .conteiner {
@@ -57,14 +58,9 @@ main{
     justify-content: center; 
     align-items: center;
     gap: 17px;
-    
-    
+        
 }
-.redes button:hover{
-    transform: 1.10s;
-    background-color:  hsl(75, 94%, 57%); color: hsl(0, 0%, 12%);
-    cursor:pointer
-}
+
 .github{
     width:300px;
     height: 44px;
@@ -73,6 +69,16 @@ main{
     border-style: none;
     color:white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.github:hover{
+    transform: 1.10s;
+    background-color:hsl(75, 94%, 57%); color: hsl(0, 0%, 12%);
+    cursor:pointer;
+    font-weight: 700;
 }
 .frontend{
     width:300px;
@@ -81,6 +87,16 @@ main{
     border-radius: 7px;
     border-style: none;
     color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.frontend:hover{
+    transform: 1.10s;
+    background-color:hsl(75, 94%, 57%); color: hsl(0, 0%, 12%);
+    cursor:pointer;
+    font-weight: 700;
 }
 .linkedin{
     width:300px;
@@ -89,6 +105,16 @@ main{
     border-radius: 7px;
     border-style: none;
     color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.linkedin:hover{
+    transform: 1.10s;
+    background-color:  hsl(75, 94%, 57%); color: hsl(0, 0%, 12%);
+    cursor:pointer;
+    font-weight: 700;
 }
 .x{
     width:300px;
@@ -97,6 +123,15 @@ main{
     border-radius: 7px;
     border-style: none;
     color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.x:hover{
+    transform: 1.10s;
+    background-color:  hsl(75, 94%, 57%); color: hsl(0, 0%, 12%);
+    cursor:pointer;
+    font-weight: 700;
 }
 .insta{
     width:300px;
@@ -105,4 +140,16 @@ main{
     border-radius: 7px;
     border-style: none;
     color:white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: 1.10s;
+    
+    
+}
+.insta:hover {
+    transform: 1.10s;
+    background-color:  hsl(75, 94%, 57%); color: hsl(0, 0%, 12%);
+    cursor:pointer;
+    font-weight: 700;
 }
